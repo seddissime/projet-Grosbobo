@@ -1,0 +1,106 @@
+
+
+body {
+	background-color:#ead0e6;
+	background-size: cover;
+	background-repeat: repeat;
+}
+
+/* Le titre */
+
+#titredusite {
+	background-color: rgba(168, 255, 249, 0.8);
+	text-align: center;
+	padding: 20px;
+	color:cadetblue;
+}
+
+/* clique sur le corps */
+
+.cliquebras {
+	position: absolute;
+	left: 50%;
+	top: 29%;
+	z-index: 100;
+	padding: 0px;
+	cursor: pointer;
+}
+
+.cliquetete {
+	position: absolute;
+	left:68%;
+	top: 2%;
+	z-index: 100;
+	cursor: pointer;
+}
+
+.cliquejambe {
+	position: absolute;
+	left: 73%;
+	top: 77%;
+	z-index: 100;
+	cursor: pointer;
+}
+
+.cliqueabdos {
+	position: absolute;
+	left: 67%;
+	top: 35%;
+	z-index: 100;
+	cursor: pointer;
+}
+
+#corpusImg {
+	z-index: -80;
+
+}
+
+
+
+}
+
+img {
+	animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+	background: transparent;
+	border: 10px solid rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+	display: block;
+	margin: 1.3em auto;
+	max-width: 95%;
+}
+
+/* colonne texte */
+
+#Textexp {
+	border: 2px solid white;
+	color: #2f5a76;
+	background-color: rgba(208, 233, 232, 0.8);
+	text-shadow: 1px 0px 1px white;
+	padding: 30px;
+	text-align: justify;
+	-moz-border-radius:15%;
+	-webkit-border-radius:15%;
+	border-radius:15%;
+	
+}
+
+
+h4 {
+	color: sandybrown;
+}
+
+p {
+	font-family: 'Arvo', serif;
+}
+
+footer {
+
+	margin-top: 100px;
+	padding: 10px 10px 20px 30px;
+
+	color: #621818;
+	background-color: #f77564;
+}
+
+
+
